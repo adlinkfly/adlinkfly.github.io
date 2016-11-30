@@ -1,0 +1,1274 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "3.4.3",
+    "versionPublish": "3.4.3",
+    "name": "BookUni.com",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3"
+    },
+    "scrollAnimation": "",
+    "path": "file:///C:/Users/Wilson%20Wong/OneDrive/Websites/adlinkfly.github.io",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/bookuniavatar.png",
+    "cookiesAlert": "",
+    "google-analytics": "",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Wilson%20Wong/OneDrive/Websites/adlinkfly.github.io"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Free Book Downloads - BookUni.com",
+        "meta_descr": "BookUni.com - Free Book Download Links and Amazon Links. PDF and ePUB formats for your reading pleasure!",
+        "header_custom": "<link rel=\"stylesheet\" href=\"/mixitup/mixitup.css\">\n<script src=\"/mixitup/preindex.js\"></script>\n<meta property=\"og:image\" content=\"http://BookUni.com/assets/images/bookuniavatar.png\" />",
+        "footer_custom": "<script>\nsetTimeout(function(){\n  var script = document.createElement('script');\n  script.src = \"/mixitup/postindex.js\";\n  document.body.appendChild(script);\n},1500);\n</script>",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-family": "'Droid Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#475577",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Droid Sans",
+              "url": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "css": "'Droid Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bookuniavatar.png",
+              "height": 128,
+              "alt": "BookUni",
+              "link": "http://BookUni.com",
+              "title": "BookUni",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://BookUni.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BookUni.com</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Subjects</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://BookUni.com/clinical collections.html\">Clinical Collections</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://BookUni.com/download.html\">How To Download</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\" target=\"_blank\">Donate</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"#top\">Top</a></li>"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(40, 50, 78); padding-top: 120px; padding-bottom: 20px;\">\n    <div class=\"container\">\n        <div include-html=\"mixitup/middle.html\"></div>\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n                <div class=\"mbr-table-cell mbr-valign-top col-md-6 text-xs-center\">\n                    <h3 class=\"mbr-section-title display-2\">Please select a subject to continue</h3>\n                    <div class=\"lead\"><p>We post links to a diversified selection of books and resources for evaluation and educational purposes. Please support the authors and publishers if you enjoy their work.<br><br>Our eBooks are high quality true PDFs and ePUBs for readers. Feel free to share and follow us if you enjoy our website. Donations are greatly appreciated.<br><br>Enjoy and thank you for your support!</p></div>\n                    <div><a class=\"btn btn-primary\" href=\"http://BookUni.com/clinical collections.html\" target=\"_blank\">Clinical Collections</a> </div>\n                    <div class=\"row\">\n                        <div class=\"col-xs-6 addthis_inline_follow_toolbox\"></div>\n                        <div class=\"col-xs-6\"><iframe style=\"padding-top: 15px\" src=\"https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FBookUniSite&amp;width=120&amp;layout=button&amp;action=like&amp;size=large&amp;show_faces=false&amp;share=true&amp;height=50&amp;appId\" width=\"120\" height=\"50\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\"></iframe></div>\n                    </div>\n                </div>\n                <div class=\"mbr-table-cell mbr-valign-top col-md-6\">\n                    <div align=\"center\"><div class=\"fb-page\" data-href=\"https://www.facebook.com/BookUniSite\" data-tabs=\"timeline, messages\" data-width=\"500\" data-height=\"500\" data-small-header=\"false\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"true\"><blockquote cite=\"https://www.facebook.com/BookUniSite\" class=\"fb-xfbml-parse-ignore\"><a href=\"https://www.facebook.com/BookUniSite\">Free Book Downloads BookUni.com</a></blockquote></div></div>\n                </div>\n            </div>\n        </div>\n        <div include-html=\"mixitup/bottom.html\"></div>\n    </div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);\n@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);\nH3{\n\tfont-family: 'Droid Serif', serif;\n\tfont-size: 32px;\n\tcolor: #ffffff;\n}\nP{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}\n.btn{\n\tfont-family: 'Droid Sans', sans-serif;\n\tfont-size: 13px;\n\tfont-weight: bold;\n}",
+          "alias": "code-editor",
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-1"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright © 2016 BookUni.com | <a href=\"/contact.html\" target=\"_blank\">Contact / DMCA</a>"
+        }
+      ]
+    },
+    "404a.html": {
+      "settings": {
+        "title": "404 - BookUni.com",
+        "meta_descr": "BookUni.com - Free Book Download Links and Amazon Links. PDF and ePUB formats for your reading pleasure!",
+        "header_custom": "<meta property=\"og:image\" content=\"http://BookUni.com/assets/images/bookuniavatar.png\" />"
+      },
+      "components": [
+        {
+          "_name": "header2",
+          "_styles": {
+            "H3": {
+              "font-family": "'Droid Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700"
+            },
+            "P": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "17px"
+            },
+            "STRONG": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "header2-3",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dead-link.png",
+              "link": "",
+              "alt": "Dead Link",
+              "title": "Dead Link",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "OOPS!<br>Error 404!",
+          "text": "Sorry, a dead link has appeared.<br>Please visit our homepage for live links.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://BookUni.com\" data-toolbar=\"-mbrBtnMove\"><strong>HOME</strong></a>"
+        }
+      ]
+    },
+    "contact.html": {
+      "settings": {
+        "title": "Contact - BookUni.com",
+        "meta_descr": "Contact - Free Book Download Links and Amazon Links. PDF and ePUB formats for your reading pleasure!",
+        "header_custom": "<link rel=\"stylesheet\" href=\"mixitup/mixitup.css\">\n<script src=\"mixitup/pre.js\"></script>\n<meta property=\"og:image\" content=\"http://BookUni.com/assets/images/bookuniavatar.png\" />",
+        "footer_custom": "<script>\nsetTimeout(function(){\n  var script = document.createElement('script');\n  script.src = \"mixitup/post.js\";\n  document.body.appendChild(script);\n},1500);\n</script>"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-family": "'Droid Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-4",
+          "_params": {
+            "bgColor": "#475577",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Droid Sans",
+              "url": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "css": "'Droid Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bookuniavatar.png",
+              "height": 128,
+              "alt": "BookUni",
+              "link": "http://BookUni.com",
+              "title": "BookUni",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://BookUni.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BookUni.com</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Subjects</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://BookUni.com/clinical collections.html\">Clinical Collections</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://BookUni.com/download.html\">How To Download</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\" target=\"_blank\">Donate</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"#top\">Top</a></li>"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(40, 50, 78); padding-top: 120px; padding-bottom: 20px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <h1 class=\"mbr-section-title display-2\">Stuff they make us say</h1>\n                <small class=\"mbr-section-subtitle\" style=\"margin-bottom: 20px\">Contact Us / Privacy Policy / DMCA | Rev: 1 Dec, 2016</small>\n                <h3>Contact Us / Privacy Policy</h3>\n                <p>BookUni.com does not share personal information with third parties nor do we store any information about your visit to this website other than to analyze and optimize your content and reading experience through the use of cookies. You can turn off the use of cookies at any time by changing your specific browser settings. We are not responsible for republished content from this website on other blogs or websites without our permission. This privacy policy is subject to change without notice. If you would like to contact us or report a problem please email us at bookunisite@gmail.com or via our social media accounts.</p>\n                <h3>DMCA</h3>\n                <p>The following statements are legally binding notice of standards and practices of BookUni.com:</p>\n                <ul><li>All copyrights belong to their respective owners and are for educational purposes only.</li><li>We do not host any files on our website. We merely make an index of material that is freely available on the internet.</li><li>No copyrighted metadata is hosted on this website!<br></li></ul>\n                <p>The information services contained in this web site are provided on an \"as is\" basis with no warranty. To the maximum extent of permission by applicable law, BookUni.com disclaims all representation and warranties, express or implied, with respect to such information, services, products, and materials, including without limitation any implied warranties of liability, fitness for a particular purpose, and non-infringement. In addition, BookUni.com does not warrant that the information accessible via this web site is current, complete, or error-free. In no event will BookUni.com be liable for any consequential, indirect, incidental, special, or punitive damages, however caused and under any theory of liability (including negligence), arising from your use of this site or the provision of the information, services, products, and materials contained in this site, even if BookUni.com has been advised of the possibility of such damages.<br><br>If your copyrighted material is linked to by BookUni.com and you wish to have it removed, you must provide us with a notice that details the information listed in the following section. The following elements must be included in your copyright infringement claim:<br></p>\n                <ol><li>a physical or electronic signature of a person authorized to act on behalf of the owner of the infringed copyright;</li><li>identification of the copyrighted work or works claimed to have been infringed;</li><li>identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed;</li><li>information reasonably sufficient to permit the service provider to contact the complaining party (e.g., the address, telephone number, or email address);</li><li>a statement that the complaining party has a good faith belief that use of the material is not authorized by the copyright owner; and</li><li>a statement that information in the complaint is accurate and that the complaining party is authorized to act on behalf of the copyright owner.<br></li></ol>\n                <p>If you have any of the above-mentioned claims, statements, or disputes, then please send the infringement notice, claim, or links to the alleged material to the following e-mail address: bookunisite@gmail.com. Please allow 5-7 business days for a response.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);\n@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);\n.mbr-section-title, .mbr-section-subtitle{\n\ttext-align: center;\n}\nH1{\n\tfont-family: 'Droid Serif', serif;\n\tcolor: #ffffff;\n}\nH3{\n\tfont-family: 'Droid Serif', serif;\n\tcolor: #ffffff;\n}\nSMALL{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}\nP{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}\nUL{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}\nLI{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}",
+          "alias": "code-editor",
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-6"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "footer1-5",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright © 2016 BookUni.com | <a href=\"/contact.html\" target=\"_blank\">Contact / DMCA</a>"
+        }
+      ]
+    },
+    "password.html": {
+      "settings": {
+        "title": "Password - BookUni.com",
+        "meta_descr": "Password - Free Book Download Links and Amazon Links. PDF and ePUB formats for your reading pleasure!",
+        "header_custom": "<link rel=\"stylesheet\" href=\"mixitup/mixitup.css\">\n<script src=\"mixitup/pre.js\"></script>\n<meta property=\"og:image\" content=\"http://BookUni.com/assets/images/bookuniavatar.png\" />",
+        "footer_custom": "<script>IncludeHTML();</script>\n<script>\nsetTimeout(function(){\n  var x = location.hash.substring(1);\n  var script = document.createElement('script');\n  document.getElementById(\"pass\").innerHTML = x;\n  script.src = \"mixitup/post.js\";\n  document.body.appendChild(script);\n},1500);\n</script>"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-family": "'Droid Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-7",
+          "_params": {
+            "bgColor": "#475577",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Droid Sans",
+              "url": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "css": "'Droid Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bookuniavatar.png",
+              "height": 128,
+              "alt": "BookUni",
+              "link": "http://BookUni.com",
+              "title": "BookUni",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://BookUni.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BookUni.com</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Subjects</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://BookUni.com/clinical collections.html\">Clinical Collections</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://BookUni.com/download.html\">How To Download</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\" target=\"_blank\">Donate</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"#top\">Top</a></li>"
+        },
+        {
+          "_name": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#28324e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/link-1400x1400-54.jpg",
+              "link": "",
+              "alt": "Link",
+              "title": "Link",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Your Password is:",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);\n@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);\nH3{\n\tfont-family: 'Droid Serif', serif;\n\tcolor: #ffffff;\n}\nP{\n\tfont-family: 'Droid Sans', sans-serif;\n\tfont-size: 48px;\n\tcolor: #ffffff;\n    font-weight: bold;\n}\n.btn{\n\tfont-family: 'Droid Sans', sans-serif;\n\tfont-size: 15px;\n    font-weight: bold;\n}",
+          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(40, 50, 78); padding-top: 120px; padding-bottom: 40px;\">\n    <div class=\"container\">\n        <div include-html=\"mixitup/middle.html\"></div>\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n                <div class=\"mbr-table-cell mbr-valign-top col-md-8 text-xs-center text-md-right\">\n                    <h3 class=\"mbr-section-title display-2\">Your Password is:</h3>\n                    <p id=\"pass\">Loading...</p>\n                    <div class=\"row\">\n                        <div class=\"col-md-4 addthis_inline_follow_toolbox\"></div>\n                        <div class=\"col-md-4\"><iframe style=\"padding-top: 15px\" src=\"https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FBookUniSite&amp;width=120&amp;layout=button&amp;action=like&amp;size=large&amp;show_faces=false&amp;share=true&amp;height=50&amp;appId\" width=\"120\" height=\"50\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\"></iframe></div>\n                        <div class=\"col-md-4\"><a class=\"btn btn-primary\" onclick=\"window.open('', '_self', ''); window.close();\">Close</a></div>\n                    </div>\n                </div>\n                <div class=\"mbr-table-cell mbr-valign-top col-md-4\">\n                    <div class=\"mbr-figure\"><img src=\"file:///C:/Users/Wilson%20Wong/OneDrive/Websites/!%20BookUni/assets/images/link.jpg\" alt=\"Link Pass\" title=\"Link Pass\"></div>\n                </div>\n            </div>\n        </div>\n        <div include-html=\"mixitup/bottom.html\"></div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "msg-box5-9"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "footer1-8",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright © 2016 BookUni.com | <a href=\"/contact.html\" target=\"_blank\">Contact / DMCA</a>"
+        }
+      ]
+    },
+    "download.html": {
+      "settings": {
+        "title": "How To Download - BookUni.com",
+        "meta_descr": "How To Download - Free Book Download Links and Amazon Links. PDF and ePUB formats for your reading pleasure!",
+        "header_custom": "<link rel=\"stylesheet\" href=\"mixitup/mixitup.css\">\n<script src=\"mixitup/pre.js\"></script>\n<meta property=\"og:image\" content=\"http://BookUni.com/assets/images/bookuniavatar.png\" />",
+        "footer_custom": "<script>IncludeHTML();</script>\n<script>\nsetTimeout(function(){\n  var script = document.createElement('script');\n  script.src = \"mixitup/post.js\";\n  document.body.appendChild(script);\n},1500);\n</script>"
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(40, 50, 78); padding-top: 120px; padding-bottom: 20px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n                <div class=\"mbr-table-cell mbr-valign-top col-md-8 text-xs-center\">\n                    <h3 class=\"mbr-info-title mbr-section-title display-2\">How To Download</h3>\n                    <h2 class=\"mbr-info-subtitle mbr-section-subtitle\">Our links open in a new AD sponsored page. Please follow the download instructions below. For some larger downloads, you may need to create a Baidu, QQ or Weibo account to login.</h2>\n                    <div class=\"row\">\n                        <div class=\"col-xs-6 addthis_inline_follow_toolbox\"></div>\n                        <div class=\"col-xs-6\"><iframe style=\"padding-top: 15px\" src=\"https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FBookUniSite&amp;width=120&amp;layout=button&amp;action=like&amp;size=large&amp;show_faces=false&amp;share=true&amp;height=50&amp;appId\" width=\"120\" height=\"50\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\"></iframe></div>\n                    </div>\n                </div>\n                <div class=\"mbr-table-cell mbr-valign-top col-md-4\">\n                    <div class=\"text-xs-center\"><a class=\"btn btn-primary\" href=\"https://passport.baidu.com/v2/?reg&amp;overseas=1\" target=\"_blank\">Baidu Registration</a> <a class=\"btn btn-primary\" href=\"http://ptlogin2.qq.com/j_newreg_url\" target=\"_blank\">QQ Registration</a> <a class=\"btn btn-primary\" href=\"http://weibo.com/signup/signup.php?lang=en-us\" target=\"_blank\">Weibo Registration</a></div>\n                </div>\n            </div>\n        </div>\n        <div include-html=\"mixitup/bottom.html\"></div>\n    </div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);\n@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);\n.mbr-section-title{\n\tfont-family: 'Droid Serif', serif;\n\tcolor: #fff;\n}\n.mbr-section-subtitle{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}\n.btn{\n\tfont-family: 'Droid Sans', sans-serif;\n\tfont-size: 13px;\n    font-weight: bold;\n}",
+          "alias": "code-editor",
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-12"
+        },
+        {
+          "_name": "features3",
+          "_styles": {
+            "P": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "features3-13",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#28324e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ads.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "ADs",
+              "title": "ADs",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "1. Click the SKIP AD button to go to each of the download and password pages.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/error.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Error",
+              "title": "Error",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "2. If an Error page displays, simply refresh or reload the page.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/password.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Password",
+              "title": "Password",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "3. Enter the password in the box to get the download link.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_name": "features3",
+          "_styles": {
+            "P": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "features3-14",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#28324e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/download.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Download",
+              "title": "Download",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "4. Click the 下载 button to start your download.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/download-option.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Regular Download",
+              "title": "Regular Download",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "5. If download option box displays, click the 普通下载 button for a regular download. You may need to log in with your Baidu, QQ or Weibo account.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/baidu-client.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Baidu Client",
+              "title": "Baidu Client",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "6. You may need to download the Baidu cloud client for very large files. After installing you will need to log in with your Baidu, QQ or Weibo account.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-family": "'Droid Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-10",
+          "_params": {
+            "bgColor": "#475577",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Droid Sans",
+              "url": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "css": "'Droid Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bookuniavatar.png",
+              "height": 128,
+              "alt": "BookUni",
+              "link": "http://BookUni.com",
+              "title": "BookUni",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://BookUni.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BookUni.com</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Subjects</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://BookUni.com/clinical collections.html\">Clinical Collections</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://BookUni.com/download.html\">How To Download</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\" target=\"_blank\">Donate</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"#top\">Top</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "footer1-11",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright © 2016 BookUni.com | <a href=\"/contact.html\" target=\"_blank\">Contact / DMCA</a>"
+        }
+      ]
+    },
+    "!book.html": {
+      "settings": {
+        "title": " - BookUni.com",
+        "meta_descr": " - Free Book Download Links and Amazon Links. PDF and ePUB formats for your reading pleasure!",
+        "header_custom": "<link rel=\"stylesheet\" href=\"mixitup/mixitup.css\">\n<script src=\"mixitup/pre.js\"></script>\n<meta property=\"og:image\" content=\"\" />",
+        "footer_custom": "<script>IncludeHTML();</script>\n<script>\nsetTimeout(function(){\n  var script = document.createElement('script');\n  script.src = \"mixitup/post.js\";\n  document.body.appendChild(script);\n},1500);\n</script>"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-family": "'Droid Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-15",
+          "_params": {
+            "bgColor": "#475577",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Droid Sans",
+              "url": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "css": "'Droid Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bookuniavatar.png",
+              "height": 128,
+              "alt": "BookUni",
+              "link": "http://BookUni.com",
+              "title": "BookUni",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://BookUni.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BookUni.com</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Subjects</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://BookUni.com/clinical collections.html\">Clinical Collections</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://BookUni.com/download.html\">How To Download</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\" target=\"_blank\">Donate</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"#top\">Top</a></li>"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section\" style=\"background-color: rgb(40, 50, 78); padding-top: 120px; padding-bottom: 20px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n                <div class=\"mbr-table-cell mbr-valign-top col-md-2 text-xs-center\">\n                    <div class=\"mbr-figure\"><img src=\"Img\" alt=\"\"></div>\n                    <small class=\"mbr-section-subtitle\" style=\"margin-bottom: 20px\">Date</small>\n                    <div include-html=\"mixitup/left.html\"></div>\n                </div>\n                <div class=\"mbr-table-cell mbr-valign-top col-md-7\">\n                    <h1 class=\"mbr-section-title display-2\">Title</h1>\n                    <small class=\"mbr-section-subtitle\" style=\"margin-bottom: 20px\">Authors</small>\n                    <h3>Heading</h3>\n                    <p>Text</p>\n                    <ul><li>Bullets</li></ul>\n                    <ol><li>Numbers</li></ol>\n                    <div include-html=\"mixitup/middle.html\"></div>\n                    <div class=\"text-xs-center\"><a class=\"btn btn-warning\" href=\"\" target=\"_blank\">Buy on Amazon</a> <a class=\"btn btn-primary\" href=\"\" target=\"_blank\">Download PDF</a> <a class=\"btn btn-info\" href=\"\" target=\"_blank\">Password Link</a></div>\n                </div>\n                <div class=\"mbr-table-cell mbr-valign-top col-md-3 text-xs-center text-md-left\" include-html=\"mixitup/right.html\"></div>\n            </div>\n        </div>\n        <div include-html=\"mixitup/bottom.html\"></div>\n    </div>\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);\n@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);\n.mbr-section-title, .mbr-section-subtitle{\n\ttext-align: center;\n}\nH1{\n\tfont-family: 'Droid Serif', serif;\n\tfont-size: 30px;\n    color: #ffffff;\n}\nH2{\n\tfont-family: 'Droid Serif', serif;\n\tfont-size: 28px;\n\tcolor: #ffffff;\n}\nH3{\n\tfont-family: 'Droid Serif', serif;\n\tfont-size: 20px;\n\tcolor: #ffffff;\n}\nSMALL{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}\nP{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}\nUL{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}\nLI{\n\tfont-family: 'Droid Sans', sans-serif;\n\tcolor: #ffffff;\n}\n.btn{\n\tfont-family: 'Droid Sans', sans-serif;\n\tfont-size: 13px;\n\tfont-weight: bold;\n}",
+          "alias": "code-editor",
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-17"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "footer1-16",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright © 2016 BookUni.com | <a href=\"/contact.html\" target=\"_blank\">Contact / DMCA</a>"
+        }
+      ]
+    },
+    "!subjects.html": {
+      "settings": {
+        "footer_custom": "<script src=\"mixitup/jquery.mixitup.min.js\"></script>\n<script>IncludeHTML();</script>\n<script>\nsetTimeout(function(){\n  var script = document.createElement('script');\n  script.src = \"mixitup/postmix.js\";\n  document.body.appendChild(script);\n},1500);\n</script>",
+        "title": " - BookUni.com",
+        "meta_descr": " - Free Book Download Links and Amazon Links. PDF and ePUB formats for your reading pleasure!",
+        "header_custom": "<link rel=\"stylesheet\" href=\"mixitup/mixitup.css\">\n<script src=\"mixitup/pre.js\"></script>\n<meta property=\"og:image\" content=\"http://BookUni.com/assets/images/bookuniavatar.png\" />"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-family": "'Droid Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-18",
+          "_params": {
+            "bgColor": "#475577",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Droid Sans",
+              "url": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "css": "'Droid Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bookuniavatar.png",
+              "height": 128,
+              "alt": "BookUni",
+              "link": "http://BookUni.com",
+              "title": "BookUni",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://BookUni.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BookUni.com</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Subjects</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://BookUni.com/clinical collections.html\">Clinical Collections</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"http://BookUni.com/download.html\">How To Download</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\" target=\"_blank\">Donate</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"#top\">Top</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff",
+              "font-family": "'Droid Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Serif:400,700",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff",
+              "text-align": "center",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            ".btn": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "13px"
+            }
+          },
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-20",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#28324e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showTitle": true,
+            "showText": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://BookUni.com/download.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><strong>How To Download</strong></a>",
+          "title": "Subject",
+          "text": "An interactive listing of books and resources are listed below. We recommend an up to date desktop internet browser. New additions are posted on our social media pages."
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<div include-html=\"mixitup/mix.html\"></div>\n<section class=\"mbr-section\" style=\"background-color: rgb(40, 50, 78); padding-top: 0px; padding-bottom: 20px;\">\n    <div class=\"container\">\n<div class=\"info-up\">Loading Links...</div>\n<div id=\"Library\" class=\"library\">\n    <div class=\"fail-message\">Sorry! No items were found matching your search.</div>\n    <div class=\"gap\"></div>\n    <div class=\"gap\"></div>\n    <div class=\"gap\"></div>\n    <div class=\"gap\"></div>\n    <div class=\"gap\"></div>\n</div>\n<div class=\"pager-list\" style=\"padding-bottom: 20px;\"></div>\n<div class=\"info-down\">Loading Links...</div>\n<div include-html=\"mixitup/bottom.html\"></div>\n\t</div>\n</section>",
+          "_customCSS": "",
+          "alias": "code-editor",
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-21"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "footer1-19",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright © 2016 BookUni.com | <a href=\"/contact.html\" target=\"_blank\">Contact / DMCA</a>"
+        }
+      ]
+    }
+  }
+}

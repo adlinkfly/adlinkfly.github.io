@@ -1,0 +1,229 @@
+/* Theme Settings */
+.at-follow-label{
+	font-family: 'Droid Sans', sans-serif;
+	color: #000000;
+	font-weight: bold;
+	font-size: 17px;
+}
+/* MixItUp Nav */
+#MixTop H3{
+  font-family: 'Droid Serif', serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+}
+#MixTop .btn{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+#MixTop .mbr-subscribe .form-control{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  top: 0.2rem;
+}
+#MixTop .dropdown-menu{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  background-color: #c0a375;
+}
+#MixTop .dropdown-menu > li > a{
+  display: block;
+  color: #ffffff;
+}
+#MixTop .dropdown-menu > li > a:focus,
+#MixTop .dropdown-menu > li > a:hover{
+  background-color: #a07e49;
+}
+/* MixItUp Settings */
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+::-webkit-input-placeholder{
+  color: white;
+}
+::-moz-placeholder{
+  color: white;
+}
+:-ms-input-placeholder{
+  color: white;
+}
+:-moz-placeholder{
+  color: white;
+}
+.library{
+	font-family: 'Droid Sans', sans-serif;
+	text-align: justify;
+	font-size: 0.1px;
+	-webkit-backface-visibility: hidden;
+}
+.library:after{
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+.library .mix,
+.library .gap{
+	display: inline-block;
+	width: 100%;
+}
+.library .mix{
+	vertical-align: top;
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 17px;
+	display: none;
+}
+.library .mix .item{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+.library .mix .item .img{
+	width: 100%;
+}
+.library .mix .title{
+	margin-bottom: 0;
+	color: #ffffff;
+}
+.library .mix .link{
+	display: block;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 10px 0px;
+	background-color: #c0a375;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-bottom: 0.5rem;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.library .mix .link:focus,
+.library .mix .link:hover{
+    background-color: #014682;
+}
+.library .mix .pass{
+	display: block;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 10px 0px;
+	background-color: #c0a375;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-bottom: 0.5rem;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.library .mix .pass:focus,
+.library .mix .pass:hover{
+    background-color: #014682;
+}
+.info-up{
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.info-down{
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.library .fail-message{
+	text-align: center;
+	opacity: 0;
+	pointer-events: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.library.fail .fail-message{
+	opacity: 1;
+	pointer-events: auto;
+}
+.rtmenu{
+    display: inline-block;
+	float:right;
+	margin-left: 1rem;
+}
+.ltmenu{
+	display: inline-block;
+	float:left;
+	margin-bottom: 0.5rem;
+}
+.pager{
+	font-family: 'Droid Sans', sans-serif;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 10px 10px;
+	background-color: #c0a375;
+	text-decoration: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.pager:focus,
+.pager:hover{
+    background-color: #a07e49;
+}
+.pager.active{
+	background-color: #014682;
+}
+@media (min-width: 410px){
+	.library .mix,
+	.library .gap{
+		width: 49%;
+	}
+}
+@media (min-width: 580px){
+	.library .mix,
+	.library .gap{
+		width: 33%;
+	}
+}
+@media (min-width: 768px){
+	.library .mix,
+	.library .gap{
+		width: 24%;
+	}
+}
+@media (min-width: 992px){
+	.library .mix,
+	.library .gap{
+		width: 19%;
+	}
+}
+@media (min-width: 1200px){
+	.library .mix,
+	.library .gap{
+		width: 16%;
+	}
+}
