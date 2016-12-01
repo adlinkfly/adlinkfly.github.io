@@ -77,12 +77,10 @@
 	font-size: 17px;
 	display: none;
 }
-.library .mix .item{
+.library .mix .img{
 	display: inline-block;
 	overflow: hidden;
 	position: relative;
-}
-.library .mix .item .img{
 	width: 100%;
 }
 .library .mix .title{
@@ -105,24 +103,6 @@
 }
 .library .mix .link:focus,
 .library .mix .link:hover{
-    background-color: #014682;
-}
-.library .mix .pass{
-	display: block;
-	color: #ffffff;
-	font-weight: bold;
-	padding: 10px 0px;
-	background-color: #c0a375;
-	text-decoration: none;
-	border-radius: 3px;
-	margin-bottom: 0.5rem;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-}
-.library .mix .pass:focus,
-.library .mix .pass:hover{
     background-color: #014682;
 }
 .info-up{

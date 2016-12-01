@@ -1,0 +1,5 @@
+
+    <div class="mix" data-title="" data-year="">
+        <img class="img" src="" alt=""/>
+        <p class="title"></p>
+        <a class="link" href="" target="_blank">Read More</a></div>
