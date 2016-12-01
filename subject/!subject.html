@@ -22,36 +22,50 @@
   <link rel="stylesheet" href="/assets/mobirise/css/mbr-additional.css" type="text/css">
   <link rel="stylesheet" href="/add/mixitup.css">
 <script src="/add/pre.js"></script>
-<meta property="og:image" content="" />
+<meta property="og:image" content="http://BookUni.com/assets/images/bookuniavatar.png" />
 </head>
 <body>
-<div include-html="/add/header.html"></div>
-<div id="custom-html-17" custom-code="true" class="mbr-after-navbar"><section class="mbr-section" style="background-color: rgb(40, 50, 78); padding-top: 120px; padding-bottom: 20px;">
+<div include-html="/add/header.html">
+<section class="mbr-info mbr-section mbr-section-md-padding mbr-after-navbar" id="msg-box2-20" style="background-color: rgb(40, 50, 78); padding-top: 120px; padding-bottom: 30px;">
+
+    
     <div class="container">
         <div class="row">
+
+            
+
             <div class="mbr-table-md-up">
-                <div class="mbr-table-cell mbr-valign-top col-md-2 text-xs-center">
-                    <div class="mbr-figure"><img src="Img" alt=""></div>
-                    <small class="mbr-section-subtitle" style="margin-bottom: 20px">Date</small>
-                    <div include-html="/add/left.html"></div>
-                </div>
-                <div class="mbr-table-cell mbr-valign-top col-md-7">
-                    <h1 class="mbr-section-title display-2">Title</h1>
-                    <small class="mbr-section-subtitle" style="margin-bottom: 20px">Authors</small>
-                    <h3>Heading</h3>
-                    <p>Text</p>
-                    <ul><li>Bullets</li></ul>
-                    <ol><li>Numbers</li></ol>
-                    <div include-html="/add/middle.html"></div>
-                    <div class="text-xs-center"><a class="btn btn-warning" href="" target="_blank">Buy on Amazon</a> <a class="btn btn-primary" href="" target="_blank">Download PDF</a> <a class="btn btn-info" href="" target="_blank">Password Link</a></div>
-                </div>
-                <div class="mbr-table-cell mbr-valign-top col-md-3 text-md-left text-xs-center" include-html="/add/right.html"></div>
+              <div class="mbr-table-cell mbr-right-padding-md-up col-md-8 text-xs-center text-md-left">
+                  <h3 class="mbr-info-title mbr-section-title display-2">Subject</h3>
+                  <h2 class="mbr-info-subtitle mbr-section-subtitle">An interactive listing of books and resources are listed below. We recommend an up to date desktop internet browser. New additions are posted on our social media pages.</h2>
+              </div>
+              <div class="mbr-table-cell col-md-4">
+                  <div class="text-xs-center"><a class="btn btn-primary" href="/download.html" target="_blank"><strong>How To Download</strong></a></div>
+              </div>
             </div>
+
         </div>
-        <div include-html="/add/bottom.html"></div>
     </div>
+</section>
+
+<div id="custom-html-21" custom-code="true"><div include-html="/add/mix.html"></div>
+<section class="mbr-section" style="background-color: rgb(40, 50, 78); padding-top: 0px; padding-bottom: 20px;">
+    <div class="container">
+<div class="info-up">Loading Links...</div>
+<div id="Library" class="library">
+    <div class="fail-message">Sorry! No items were found matching your search.</div>
+    <div class="gap"></div>
+    <div class="gap"></div>
+    <div class="gap"></div>
+    <div class="gap"></div>
+    <div class="gap"></div>
+</div>
+<div class="pager-list" style="padding-bottom: 20px;"></div>
+<div class="info-down">Loading Links...</div>
+<div include-html="/add/bottom.html"></div>
+	</div>
 </section></div>
-<div include-html="/add/footer.html"></div>
+<div include-html="/add/footer.html">
   <script src="/assets/web/assets/jquery/jquery.min.js"></script>
   <script src="/assets/tether/tether.min.js"></script>
   <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
@@ -59,11 +73,12 @@
   <script src="/assets/dropdown/js/script.min.js"></script>
   <script src="/assets/touchSwipe/jquery.touchSwipe.min.js"></script>
   <script src="/assets/theme/js/script.js"></script>
-  <script>IncludeHTML();</script>
+  <script src="/add/jquery.mixitup.min.js"></script>
+<script>IncludeHTML();</script>
 <script>
 setTimeout(function(){
   var script = document.createElement('script');
-  script.src = "/add/post.js";
+  script.src = "/add/postmix.js";
   document.body.appendChild(script);
 },1500);
 </script>
