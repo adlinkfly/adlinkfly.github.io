@@ -1,0 +1,897 @@
+
+body, body div, body p, body th, body td, body li, body dd {
+    font-size: small;
+}
+
+body {
+        font-family: verdana,arial,helvetica,sans-serif;
+    letter-spacing: 0.08em;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-weight: normal;
+    line-height: 150%; 
+    margin: 0 55px 0 0;
+    padding: 10px 0px 20px 40px;
+}
+
+#booktitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -55px;
+    color: #000;
+    background-color: #fff;
+}
+
+#booktitle img {
+    padding: 10px;
+}
+
+#booktitle h1 {
+    color: #000;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 150%;
+}
+
+.navlinks {
+    border-top: 3px groove #aaa;
+    border-bottom: 3px groove #aaa;
+    margin: 0 -15px 25px 0;
+    padding: 5px;
+    font-size: 150%;
+    font-weight: bold;
+    font-color: #ccc;
+    text-align: right;
+}
+
+.navlinks span {
+    padding: 0 10px 0 10px;
+}
+
+.navlinks a {
+    text-decoration: none;
+}
+
+/* These are all the same because all links point to ovidweb.cgi, 
+   so they always appear to be visited.
+*/
+a, a:visited, a:active {
+    color: #006fb1;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+#whatsnew {
+    padding: 0 8px 10px 0;
+    text-align: right;
+    font-size: 92%;
+}
+
+.ftup {
+    padding: 0 0 0 3px;
+}
+
+.QA {
+    margin-bottom: 12pt;
+}
+
+.QS .P {
+    font-weight: bold;
+}
+
+.A .P {
+    margin-left: 3em;
+}
+
+.CA-fmt div {
+    display: none;
+    margin-left: 3em;
+}
+
+.CA-fmt div div {
+    display: block;
+}
+
+.CA-fmt div span {
+    display: inline;
+}
+
+.CA-unfmt div {
+    display: none;
+    margin-left: 3em;
+}
+
+.CA-unfmt div div {
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.CA-unfmt div span {
+    display: inline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.UPDATE {
+    font-family: verdana,arial,helvetica,sans-serif;
+    color: #7f8429;
+    font-size: 83%;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    padding: 4px 18px 1px 0;
+}
+
+.UPDATE img {
+    position: relative;
+    left: -5px;
+}
+
+.updated {
+    background-color: #F6F7EF;
+    border-left: 5px solid #DEE0D5;
+    border-top: 1px solid #DEE0D5;
+    border-bottom: 1px solid #DEE0D5;
+    border-right: 1px solid #DEE0D5;
+    padding-left: 10px;
+    padding-right: 4px;
+}
+
+.updated:hover {
+    border-left: 5px solid #BCC0B3;
+    border-top: 1px solid #BCC0B3;
+    border-bottom: 1px solid #BCC0B3;
+    border-right: 1px solid #BCC0B3;
+}
+
+td, th {
+        font-family: verdana,arial,helvetica,sans-serif;
+    color: #333333;
+    font-weight: normal;
+    padding: 10px;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    border:0;
+}
+
+.P {
+    font-weight: normal;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+.TG {
+    margin-bottom: 10px;
+}
+
+.TG .TI {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.TI {
+}
+
+.list_title {
+    font-weight: bold;
+}
+
+.EDTN {
+    font-size: 133%;
+    margin-top: 6px;
+    padding-bottom: 20px;
+}
+
+.PN, .GP {
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.SG {
+    text-align: right;
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+
+.SG .PN, .SG .GP {
+    font-weight: normal;
+}
+
+.ROLE {
+    margin: 0;
+    padding: 0;
+}
+
+.AF .P, .BT .P {
+    font-style: italic;
+}
+
+.EDGRP, .AUTHGRP {
+    padding-bottom: 15px;
+}
+
+.AUTHORS .PRIMA .HD, .EDITORS .PRIMARY .HD, .AUTHORS .SECONDA .HD {
+    font-size: 150%;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.AUTHORS .HD, .EDITORS .HD {
+    font-size: 150%;
+    padding-bottom: 15px;
+}
+
+.TLV1-noHD {
+    padding-top: 15px;
+}
+
+.TLV1 .HD, .TLV2 .HD, .TLV3 .HD, .TLV4 .HD, .TLV5 .HD, .TLV6 .HD, .TLV7 .HD, .TLV8 .HD, .TLEDS .HD, .TLED .HD, .EDS .HD, .ED .HD {
+    font-weight: bold;
+    padding: 15px 0 5px 0;
+    margin: 0;
+}
+
+.TLV1 .HD, .TLEDS .HD, .TLED .HD, .EDS .HD, .ED .HD {
+    font-size: 150%;
+    font-style: normal;
+}
+
+.TLV2 .HD {
+    font-size: 150%;
+    font-style: italic;
+}
+
+.TLV3 .HD {
+    font-size: 140%;
+    font-style: normal;
+}
+
+.TLV4 .HD {
+    font-size: 140%;
+    font-style: italic;
+}
+
+.TLV5 .HD {
+    font-size: 130%;
+    font-style: normal;
+}
+
+.TLV6 .HD {
+    font-size: 130%;
+    font-style: italic;
+}
+
+.TLV7 .HD {
+    font-size: 120%;
+    font-style: normal;
+}
+
+.TLV8 .HD {
+    font-size: 120%;
+    font-style: italic;
+}
+
+.LK {
+    font-style: normal;
+}
+
+.TLGLOSEC .HD, .GLOSEC .HD {
+    font-size: 150%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.TLGLOSEC .TERM, .GLOSEC .TERM, .TLABRSEC, .ABRSEC {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.TLGLOSEC .DEF .P, .GLOSEC .DEF .P {
+    font-weight: normal;
+    padding: 0;
+}
+
+.ED, .TLED {
+    margin-bottom: 20px;
+}
+
+
+.EDS .RF, .TLEDS .RF {
+    font-weight: normal;
+    padding: 15px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.FRF {
+    display: inline;
+}
+
+.slink, .dispset, .citedref {
+    text-align: right;
+    height: 18px;
+}
+
+.dispset {
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+
+.dispset a {
+        font-family: verdana,arial,helvetica,sans-serif;
+    color: #00f;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.dispset a:hover {
+    text-decoration: underline;
+}
+
+.FRTXT .P {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.THD .HNUM {
+    font-size: 183%;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.THD .HD, .FRTXT .FRTITLE {
+    font-size: 183%;
+    line-height: normal;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.DIVISIONA, .DIVISIONB, .DIVISIONC, .DIVISIOND, {
+    margin-top: 20px;
+}
+
+
+.FG, .TB{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.XTAB {
+    width: 90%;
+    padding-top: 10px;
+}
+
+.XTAB HR {
+    color: #999999;
+    display: none;
+    height: 2px;
+}
+
+.XTAB table {
+    border-collapse: collapse;
+}
+
+.XTAB table td {
+    border: solid 1px #999999;
+    margin: 0px;
+    padding: 6px;
+}
+
+.FIGURE {
+    border: 2px groove #d0d0d0;
+}
+
+.FIGURE td {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.FIGURE-COL1 {
+    font-size: 83%;
+    background-color: #F1F1F1;
+    height: 250px;
+}
+
+.FIGURE-COL2 {
+    background-color: #F1F1F1;
+}
+
+.FIGURE-COL2 .P {
+}
+
+img {
+    border: 0;
+}
+
+.QT {
+    margin: 1em 5em 1em 5em;
+}
+
+.QRF {
+}
+
+.STN {
+    margin: 1em 0 1em 3em;
+    width: 60%;
+}
+
+.STL {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 115%;
+}
+
+.STRF {
+    display: block;
+    margin-top: 1em;
+    text-align: right;
+}
+
+.emph_B {
+    font-weight: bold;
+}
+
+.emph_I {
+    font-style: italic;
+}
+
+.emph_BIT {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.emph_UL {
+    text-decoration: underline;
+}
+
+.emph_DUL {
+    border-bottom: 3px double black;
+}
+
+.emph_BUL {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.emph_UPDATE {
+    background-color: #F6F7EF;
+}
+
+ul {
+}
+
+li {
+    list-style-position: outside;
+}
+
+li .P {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.listtype_A {
+    list-style-type: circle;    /* Asterisk */
+}
+
+.listtype_B {
+    list-style-type: disc;        /* Bullet */
+}
+
+.listtype_D {
+    list-style-type: square;    /* Dash */
+}
+
+.listtype_N {
+    list-style-type: decimal;
+}
+
+.listtype_L {
+    list-style-type: lower-alpha;
+}
+
+.listtype_UC {
+    list-style-type: upper-alpha;
+}
+
+.listtype_LCR {
+    list-style-type: lower-roman;
+}
+
+.listtype_R {
+    list-style-type: upper-roman;
+}
+
+.listtype_U {
+    list-style-type: none;        /* Unnumbered */
+}
+
+.listtype_SS {
+    list-style-type: disc;        /* Search Strategies */
+}
+
+
+
+.IDXSEC {
+}
+
+.IDXSEC .HD {
+    font-size: 150%;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/* ENTRY1 is not indented */
+
+/* each ENTRY is indented relative to its parent */
+.IDXSEC .ENTRY2, .IDXSEC .ENTRY3, .IDXSEC .ENTRY4, .IDXSEC .ENTRY5, .IDXSEC .ENTRY6 {
+    padding-left: 15px;
+}
+
+.TLABRSEC .HD, .ABRSEC .HD {
+    font-size: 150%;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.CORRECT .TLV1 .HD {
+    border-top: solid 1 #D3D3C3;
+    font-size: 133%;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.TCP, .TCP .DA, .TCP .ISBN, .TCP .ISN, .TCP .LC, .TCP .P {
+    padding-bottom: 10px;
+}
+
+.HASTIP {
+    border-bottom: 3px double #494;
+    color: #494;
+    cursor: pointer;
+}
+
+.HASDEF {
+    border-bottom: 3px double #449;
+    color: #449;
+    cursor: pointer;
+}
+
+.postit {
+    position: absolute;
+    font-size: 80%;
+    z-index: 1000;
+}
+.postit_header {
+    text-align: right;
+}
+.postit_body {
+    background-color: #ff6;
+    padding: 0 1em 1em 1em;
+}
+.postit button {
+    padding: 0;
+    font-size: 80%;
+    font-weight: bold;
+    font-family: fixed;
+    background-color: #ff9;
+}
+.postit_content {
+    background-color: #ff6;
+    padding: 8px;
+    width: 15em;
+    min-height: 5em;
+    border: 1px solid #aa9;
+}
+.postit .TERM {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.postit .DEF {
+    background-color: #ff6;
+    font-weight: normal;
+    border: 0;
+    padding: 0;
+}
+
+.tbf_menu {
+    text-align: right;
+    border-bottom:solid 1px #D3D3C3;
+}
+
+.tbf_menu table {
+    width: 100%;
+}
+
+.tbf_menu table td {
+    color: #666666;
+}
+
+.tbf_menu table td a {
+    font-size: 92%;
+    margin: 0 0 0 0;
+}
+
+.pagenum {
+    margin-right: -55px;
+    border-top: 1px dotted #CCC;
+    clear: all;
+}
+
+.pagenum div {
+    float: right;
+    color: #666;
+    margin-left: 5px;
+    width: 50px;
+}
+
+.SIDEBAR {
+    font-weight: normal;
+    margin: 0 0 10px 0;
+}
+
+.SIDEBAR .HD {
+    color: #000000;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 108%;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 3px 0;
+}
+
+.SIDEBAR .TLV1 {
+    font-weight: normal;
+    padding: 12;
+}
+
+.SIDEBAR .TLV1 B, .SIDEBAR .TLV1 .P {
+    font-weight: normal;
+    padding: 0 0 5px 0;
+}
+
+.SIDEBAR .TLV1 B {
+    font-weight: bold;
+}
+
+/* Sidebar Style 0 - Generic sidebars */
+
+.ABSTRACT {
+}
+
+/* Sidebar Style 1 */
+
+.REC,
+.ACTIONS,
+.USE,
+.ETHICS,
+.LEGAL,
+.EQUIPMENT,
+.GERIATRIC,
+.INDICATIONS,
+.INTERVENTIONS,
+.MATERNAL,
+.NURSING,
+.NURDOC,
+.PATHOPHYS,
+.PROCEDURE,
+.EDUCATION,
+.PEDIATRIC,
+.PREVENTION,
+.TROUBLE {
+    background: #EEE9F3;
+    border: solid 1px #C2AFD5;
+    color: #000000;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 108%;
+    font-weight: normal;
+}
+
+/* Sidebar Style 2 */
+
+.DRUGS,
+.ASSOC,
+.BIO,
+.CAREER,
+.CULTURE {
+    background: #EAF3EC;
+    border: solid 1px #7CB58E;
+    color: #000000;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 108%;
+    font-weight: normal;
+}
+
+/* Sidebar Style 3 */
+
+.INTERACT,
+.COLLABORATION,
+.GENDER,
+.EMERGENCY,
+.GERONALRT,
+.IMPLEMENTATION,
+.OUTCOMES,
+.PEDIATALRT,
+.PREGALRT,
+.SPECCONSALRT,
+.ALERT,
+.COMPLICATIONS,
+.TREATMENT {
+    background: #F9F1F1;
+    border: solid 1px #D13030;
+    color: #000000;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 108%;
+}
+
+/* Sidebar Style 4 */
+
+.MONITOR,
+.STANDARDS,
+.SYMPTOM,
+.ADVPRAC,
+.APPROACH,
+.CASE,
+.GENETIC,
+.INDICATIONS {
+    background: #EDF3F7;
+    border: solid 1px #97B5C8;
+    color: #000000;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 108%;
+}
+
+/* Sidebar Style 5 */
+
+.IMPLICATIONS,
+.CONCLUSIONS,
+.AWARE,
+.DEF,
+.QUICK,
+.ABBR,
+.CHECK,
+.CUTEDGE,
+.DIAGNOSIS,
+.CRITTHINK,
+.FUTURE,
+.ISSUES,
+.KEY,
+.MISC,
+.NOTES,
+.QUESTIONS,
+.READINGS,
+.TIPS {
+    background: #EAEAEA;
+    border: solid 1px #A9A9A9;
+    color: #000000;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 108%;
+}
+
+.IDXPG {
+    display: inline;
+    padding: 0 5px 0 0;
+}
+
+.IDXPG span {
+}
+
+.MATH {
+    text-align: center;
+}
+
+.gatewayContentHighlight {
+    background-color: #FAFD9e;
+    border-right: 5px solid #FFF200;
+    padding-right: 5px;
+}
+
+.auxcontent {
+    display: block;
+}
+
+* html object.mov {
+    display: none;
+}
+* html object.mov/**/ {
+    display: inline;
+}
+* html object.mov {
+    display/**/: none;
+}
+
+pre {
+    border-top: 1px solid #AAA;
+    font-family: fixed-width;
+    white-space: pre;
+}
+pre:first-line {
+    font-weight: bold;
+}
+
+sup, sub {
+    font-size: 80%;
+}
+
+.HD sup, .HD sub {
+    font-size: 60%;
+}
+
+.term-highlight-user {
+    color: #FF0000;
+    font-weight: bold;
+    background-color: #fff266;
+    padding: 0 4px 0 4px;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.term-highlight-natlang {
+    background-color: #fff266;
+    padding: 0 4px 0 4px;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.prntsec {
+    position: relative;
+    top: -1px;
+}
+
+.printable_section {
+    border: 1px dotted rgb(66,41,6);
+    background-color: rgb(255,209,0);
+}
+
+#printpreview_header {
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    background-color: #eee;
+}
+
+#printheader_source {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#printheader_copyright {
+    margin-top: 0.5em;
+    font-weight: normal;
+}
+
+#printheader_title {
+    font-style: italic;
+}
+
+#printheader_crumbtrail {
+    font-size: 85%;
+}
+
+.printheader_label {
+    font-style: normal;
+    color: rgb(0,80,76);
+    margin-right: 0.5em;
+}
+
+.printpreview-icon {
+    display: none;
+}
+
