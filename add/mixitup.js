@@ -22,7 +22,7 @@ $(function() {
         $('.mix').each(function() {
           $this = $("this");
           // add item to be filtered out if input text matches items inside the title   
-          if($(this).children('.title').text().toLowerCase().match(inputText)) {
+          if($(this).children().children('.title').text().toLowerCase().match(inputText)) {
             $matching = $matching.add(this);
           }
           else {
