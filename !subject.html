@@ -100,22 +100,24 @@
                 </div>
             </div>
         </div>
-        <div class="pager-list ltmenu"></div>
-        <div class="dropdown rtmenu">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Items per Page<span class="caret"></span></button>
-            <ul class="dropdown-menu dropdown-menu-right">
-                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:6});return false">6</a></li>
-                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:12});return false">12</a></li>
-                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:18});return false">18</a></li>
-                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:30});return false">30</a></li>
-                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:48});return false">48</a></li>
-                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:78});return false">78</a></li>
-                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:126});return false">126</a></li>
-                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:0});return false">All</a></li>
-            </ul>
+        <div style="padding-bottom: 10px">
+            <div class="pager-list ltmenu"></div>
+            <div class="dropdown rtmenu">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Items per Page<span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:6});return false">6</a></li>
+                    <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:12});return false">12</a></li>
+                    <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:18});return false">18</a></li>
+                    <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:30});return false">30</a></li>
+                    <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:48});return false">48</a></li>
+                    <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:78});return false">78</a></li>
+                    <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:126});return false">126</a></li>
+                    <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:0});return false">All</a></li>
+                </ul>
+            </div>
         </div>
-        <!-- ADs <div style="padding-top: 10px"></div> -->
-        <div style="padding-top: 20px" class="info-up">Loading...</div>
+        <!-- ADs <div style="padding-bottom: 20px"></div> -->
+        <div class="info-up">Loading...</div>
 <div id="Library" class="library">
     <div class="fail-message">Sorry! No items were found matching your search.</div>
     <div class="gap"></div>
