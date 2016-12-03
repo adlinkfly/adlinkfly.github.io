@@ -65,11 +65,6 @@ $(function() {
   });
 });
 
-/* Adsense */
-/*(adsbygoogle = window.adsbygoogle || []).push({});
-(adsbygoogle = window.adsbygoogle || []).push({});
-(adsbygoogle = window.adsbygoogle || []).push({});
-
 /* InfoLinks */
 /*var infolinks_pid = 2903978;
 var infolinks_wsid = 0;
