@@ -82,10 +82,40 @@
     </div>
 </section>
 
-<div id="custom-html-21" custom-code="true"><div include-html="/add/mix.html"></div>
-<section class="mbr-section" style="background-color: rgb(40, 50, 78); padding-top: 0px; padding-bottom: 20px;">
+<div id="custom-html-21" custom-code="true"><section class="mbr-section" id="MixTop" style="background-color: rgb(40, 50, 78); padding-top: 0px; padding-bottom: 20px;">
     <div class="container">
-<div class="info-up">Loading...</div>
+        <!-- ADs <div style="padding-bottom: 20px"></div> -->
+        <div class="row" style="padding-bottom: 10px">
+            <div class="mbr-table-md-up">
+                <div class="mbr-table-cell col-md-6 text-xs-center">
+                    <h3 class="mbr-info-title mbr-section-title display-2">Sort &amp; Search</h3>
+                    <div><button class="sort btn btn-primary" data-sort="title:asc"><strong>Title</strong></button> <button class="sort btn btn-primary" data-sort="year:desc"><strong>Date</strong></button> <button class="sort btn btn-primary" data-sort="random"><strong>Randomize</strong></button></div>
+                </div>
+                <div class="mbr-table-cell col-md-6 text-xs-center">
+                    <form class="mbr-form"><div class="mbr-subscribe mbr-subscribe-dark input-group"><input type="text" id="input" class="form-control" placeholder="Search Title, Year or Author"><span class="input-group-btn"><button onclick="$('#Library').mixItUp('filter','all')" type="reset" class="btn btn-primary">Reset</button></span></div></form>
+                    <div class="row">
+                        <div class="col-xs-6 addthis_inline_follow_toolbox"></div>
+                        <div class="col-xs-6"><iframe style="padding-top: 15px" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FBookUniSite&amp;width=120&amp;layout=button&amp;action=like&amp;size=large&amp;show_faces=false&amp;share=true&amp;height=65&amp;appId" width="120" height="50" scrolling="no" frameborder="0" allowtransparency="true"></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pager-list ltmenu"></div>
+        <div class="dropdown rtmenu">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Items per Page<span class="caret"></span></button>
+            <ul class="dropdown-menu dropdown-menu-right">
+                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:6});return false">6</a></li>
+                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:12});return false">12</a></li>
+                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:18});return false">18</a></li>
+                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:30});return false">30</a></li>
+                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:48});return false">48</a></li>
+                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:78});return false">78</a></li>
+                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:126});return false">126</a></li>
+                <li><a href="#" onclick="$('#Library').mixItUp('paginate',1);$('#Library').mixItUp('paginate',{limit:0});return false">All</a></li>
+            </ul>
+        </div>
+        <!-- ADs <div style="padding-top: 10px"></div> -->
+        <div style="padding-top: 20px" class="info-up">Loading...</div>
 <div id="Library" class="library">
     <div class="fail-message">Sorry! No items were found matching your search.</div>
     <div class="gap"></div>
@@ -94,9 +124,9 @@
     <div class="gap"></div>
     <div class="gap"></div>
 </div>
-<div class="pager-list" style="padding-bottom: 20px;"></div>
-<div class="info-down">Loading...</div>
-<div include-html="/add/bottom.html"></div>
+        <div class="pager-list" style="padding-bottom: 20px;"></div>
+        <div class="info-down">Loading...</div>
+        <!-- ADs <div></div> -->
 	</div>
 </section></div>
 
@@ -116,8 +146,7 @@
   <script src="assets/touchSwipe/jquery.touchSwipe.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   
-  <script>IncludeHTML();</script>
-<script src="/add/jquery.mixitup.min.js"></script>
+  <script src="/add/jquery.mixitup.min.js"></script>
 <script>
 setTimeout(function(){
   var script = document.createElement('script');
