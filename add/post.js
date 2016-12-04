@@ -27,9 +27,3 @@ setTimeout(function(){
   addthisScript.setAttribute('src', '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-583e42fbd9e86109');
   document.body.appendChild(addthisScript);
 },1500);
-
-/* Password */
-/*window.onload = function () {
-  var x = location.hash.substring(1);
-  document.getElementById("pass").innerHTML = x;
-};*/
