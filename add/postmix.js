@@ -66,7 +66,7 @@ $(function() {
 });
 
 /* InfoLinks */
-/*var infolinks_pid = 2903978;
+var infolinks_pid = 2915188;
 var infolinks_wsid = 0;
 var infoscript=document.createElement('script');
 infoscript.setAttribute('src', '//resources.infolinks.com/js/infolinks_main.js');
