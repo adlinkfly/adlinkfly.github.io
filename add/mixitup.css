@@ -200,10 +200,20 @@
 	.library .gap{
 		width: 19%;
 	}
+	.mbr-cards-row{
+    width: 940px;
+	}
 }
 @media (min-width: 1200px){
 	.library .mix,
 	.library .gap{
 		width: 16%;
 	}
+	.mbr-cards-row{
+    width: 1140px;
+	}
+}
+.mbr-cards-row{
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
