@@ -1,5 +1,5 @@
 
-    <div class="mix" data-title="" data-year="">
-        <img class="img" src="" alt=""/>
-        <p class="title"></p>
-        <a class="link" href="" target="_blank">Read More</a></div>
+    <div class="mix" data-title="___" data-year="___">
+        <img class="img" src="___" alt="___"/>
+        <p class="title">___</p>
+        <a class="link" href="___" target="_blank">Read More</a></div>
