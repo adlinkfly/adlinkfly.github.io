@@ -48,8 +48,8 @@ $(function() {
     },
     callbacks: {
       onMixStart: function(state){
-        $(".info-up").html('Loading Links...');
-        $(".info-down").html('Loading Links...');
+        $(".info-up").html('Loading...');
+        $(".info-down").html('Loading...');
       },
       onMixEnd: function(state){
         $(".info-up").html('Displaying '+state.totalShow+' item(s) on Page '+state.activePage+'.');
