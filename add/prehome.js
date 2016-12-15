@@ -8,6 +8,6 @@
 }(document, 'script', 'facebook-jssdk'));
 
 /* AdSense */
-/*var adscript = document.createElement('script');
+var adscript = document.createElement('script');
 adscript.setAttribute('src', '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
-document.getElementsByTagName('head')[0].appendChild(adscript);*/
+document.getElementsByTagName('head')[0].appendChild(adscript);
