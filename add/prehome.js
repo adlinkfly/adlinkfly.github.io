@@ -10,7 +10,7 @@
 /* Twitter */
 var twitterscript=document.createElement('script');
 twitterscript.setAttribute('src', '//platform.twitter.com/widgets.js');
-document.body.appendChild(twitterscript);
+document.getElementsByTagName('head')[0].appendChild(twitterscript);
 
 /* AdSense */
 var adscript = document.createElement('script');
