@@ -7,6 +7,11 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
+/* Twitter */
+var twitterscript=document.createElement('script');
+twitterscript.setAttribute('src', '//platform.twitter.com/widgets.js');
+document.body.appendChild(twitterscript);
+
 /* AdSense */
 var adscript = document.createElement('script');
 adscript.setAttribute('src', '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
