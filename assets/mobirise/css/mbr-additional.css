@@ -93,6 +93,10 @@
   font-size: 13px;
   font-weight: bold;
 }
+#custom-html-1 .nav-tabs {
+  font-family: 'Droid Serif', serif;
+  cursor: pointer;
+}
 #footer1-2 P {
   color: #ffffff;
   font-family: 'Droid Sans', sans-serif;
